@@ -24,5 +24,11 @@ describe('Calculator', () => {
     it('should return the quotient of two numbers', () => {
       assert.equal(divide(10, 2), 5);
     });
+
+    it('should throw an error when dividing by zero', () => {
+      assert.throws(() => {
+        divide(10, 0);
+      }, Error);
+    });
   });
 });
