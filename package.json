@@ -1,0 +1,22 @@
+{
+  "name": "mkepl_t10_ci-cd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afadfath03/MKEPL_T10_CI-CD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afadfath03/MKEPL_T10_CI-CD/issues"
+  },
+  "homepage": "https://github.com/Afadfath03/MKEPL_T10_CI-CD#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
