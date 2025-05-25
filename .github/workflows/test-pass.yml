@@ -1,8 +1,8 @@
 name: Node.js test CI
 
 on:
-  pull_request:
-    branches: ["main", "Pass"]
+  push:
+    branches: ["Pass"]
 
 jobs:
   build:
