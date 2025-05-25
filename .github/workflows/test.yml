@@ -2,7 +2,7 @@ name: Node.js test CI
 
 on:
   push:
-    branches: ["main"]
+    branches: ["Gagal"]
 
 jobs:
   build:
