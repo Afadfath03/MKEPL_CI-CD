@@ -1,8 +1,8 @@
 const assert = require('assert');
 const { add, subtract, multiply, divide } = require('../calc/calc.js');
 
-test('Add', () => {
-    expect(add(2, 2)).toBe(4);
+test('Add (Error)', () => {
+    expect(add(2, 2)).toBe(5);
 });
 
 test('Subtract', () => {
