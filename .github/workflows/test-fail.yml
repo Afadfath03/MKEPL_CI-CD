@@ -1,8 +1,6 @@
 name: Node.js test CI
 
 on:
-    push:
-        branches: ["Fail"]
     pull_request:
         branches: ["main"]
 
