@@ -3,6 +3,8 @@ name: Node.js test CI
 on:
   push:
     branches: ["Pass"]
+  pull_request:
+    branches: ["Pass"]
 
 jobs:
   build:
